@@ -143,6 +143,7 @@ describe("#wordSearch()", function() {
     assert.isTrue(result);
   });
 
+  // Test to see if word appears diagonally:
   it("should return true if the word appears diagonally", function () {
     const result = wordSearch(
       [
